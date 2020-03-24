@@ -147,7 +147,7 @@ h264-sample: {
 	videoport = 8004
 	videopt = 126
 	videortpmap = "H264/90000"
-	videofmtp = "profile-level-id=42C01F;packetization-mode=1"
+	videofmtp = "profile-level-id=42C01F;sprop-parameter-sets=Z0LAH9oBQBboQAAAAwBAAAAPI8YMqA==,aM48gA==;packetization-mode=1"
 }
 
 #
