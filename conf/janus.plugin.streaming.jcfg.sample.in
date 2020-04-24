@@ -142,8 +142,11 @@ h264-sample: {
 	type = "rtp"
 	id = 10
 	description = "OBS RTMP"
-	audio = false
+	audio = true
 	video = true
+	audioport = 5002
+	audiopt = 111
+	audiortpmap = "opus/48000/2"
 	videoport = 8004
 	videopt = 96
 	videortpmap = "H264/90000"
