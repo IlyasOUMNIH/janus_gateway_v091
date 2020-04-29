@@ -94,20 +94,20 @@ general: {
 	#string_ids = true
 }
 
-gstreamer-sample: {
-	type = "rtp"
-	id = 1
-	description = "Opus/VP8 live stream coming from gstreamer"
-	audio = true
-	video = true
-	audioport = 5002
-	audiopt = 111
-	audiortpmap = "opus/48000/2"
-	videoport = 5004
-	videopt = 100
-	videortpmap = "VP8/90000"
-	secret = "adminpwd"
-}
+#gstreamer-sample: {
+#	type = "rtp"
+#	id = 1
+#	description = "Opus/VP8 live stream coming from gstreamer"
+#	audio = true
+#	video = true
+#	audioport = 5002
+#	audiopt = 111
+#	audiortpmap = "opus/48000/2"
+#	videoport = 5004
+#	videopt = 100
+#	videortpmap = "VP8/90000"
+#	secret = "adminpwd"
+#}
 
 file-live-sample: {
 	type = "live"
@@ -147,7 +147,7 @@ h264-sample: {
 	audioport = 5002
 	audiopt = 111
 	audiortpmap = "opus/48000/2"
-	videoport = 8004
+	videoport = 5004
 	videopt = 96
 	videortpmap = "H264/90000"
 	videofmtp = "packetization-mode=1;profile-level-id=42C01F"
